@@ -1,3 +1,4 @@
+package SOLID_Design_Principles.SRP;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,6 +61,7 @@ class ShoppingCartStorage {
     }
 
     public void saveToDatabase() {
+        System.out.println(cart);
         System.out.println("Saving shopping cart to database...");
     }
 }
