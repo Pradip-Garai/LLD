@@ -75,6 +75,7 @@ class MakePayment{
         System.out.println("Rs. "+totalPrice+" payment successfully done using UPI");
     }
     public void MobailWaletPayment(){
+        System.out.println(cart);
         System.out.println("Rs. "+totalPrice+" payment successfully done using Mobail Walet");
     }
 }
