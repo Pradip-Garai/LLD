@@ -75,6 +75,7 @@ class CardPayment extends MakePayment{
 
     @Override
     public void payment(){
+        System.out.println(cart);
        System.out.println("Rs: "+payAmount+" Payment done with Card");
     }
 }
@@ -91,6 +92,7 @@ class UPIPayment extends MakePayment{
 
     @Override
     public void payment(){
+      System.out.println(cart);
       System.out.println("Rs: "+payAmount+" Payment done with UPI");
     }
 }
